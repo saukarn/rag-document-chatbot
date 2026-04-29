@@ -10,8 +10,8 @@ __pycache__/
 .env
 
 # Data / local DB
-data/
-chroma_db/
+data/uploads/
+data/chroma_db/
 *.sqlite3
 
 # OS junk
