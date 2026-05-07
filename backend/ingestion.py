@@ -31,5 +31,7 @@ def split_documents(documents):
 def ingest_pdf(file, upload_dir: str):
     file_path = save_uploaded_file(file, upload_dir)
     docs = load_pdf(file_path)
+    print(f"DEBUG: Loaded {len(docs)} pages")
     chunks = split_documents(docs)
+    print(f"DEBUG: Split into {len(chunks)} chunks")
     return chunks
