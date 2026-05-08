@@ -13,9 +13,12 @@ langchain-chroma
 langchain-text-splitters
 langchain-pinecone
 pinecone
+cohere
+langchain-cohere
 
 chromadb
 pypdf
 tiktoken
 
 pytest
+
