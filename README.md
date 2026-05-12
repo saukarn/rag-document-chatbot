@@ -117,7 +117,7 @@ Grade Answer (LLM)
 ### 1. Clone repo
 
 ```bash
-git clone https://github.com/<your-username>/rag-document-chatbot.git
+git clone https://github.com/saukarn/rag-document-chatbot.git
 cd rag-document-chatbot
 ```
 
